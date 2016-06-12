@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="main">
       <div class="container logowrapper animated  fadeInDown">
         <div class="clearfix">
           <h3 class="logo">JOHN <b> THACHIL</b></h3>
@@ -28,8 +28,8 @@
     <div class="container">
         <div class="clearfix">
           <div class="landing">
-            <h1 class="line-one wow  fadeIn"  data-wow-duration="1s">UX <span class="amper">&amp</span> UI</h1>
-            <h1 class="line-two wow  fadeInRight"> <span class="strike-one">Designer </span><span class="slash">/</span><span class="strike-two"> Developer</span></h1>
+            <h1 class="line-one wow  fadeIn"  data-wow-duration="2s">UX <span class="amper">&amp</span> UI</h1>
+            <h1 class="line-two wow  fadeIn"  data-wow-duration="3s" data-wow-delay="1s"> <span class="strike-one">Designer </span><span class="slash">/</span><span class="strike-two"> Developer</span></h1>
         </div>
       </div>
     </div>
@@ -44,6 +44,7 @@
     <!-- works -->
     <div class="container">
       <div id="work-section" class="works">
+
           <h2>Hand Picked</h2>
 
             <li class="wow fadeIn">
@@ -59,7 +60,7 @@
             <hr>
 
             <li class="wow fadeIn">
-              <a href="#">
+              <a id="demo01" href="#animatedModal">
                 <div class="clearfix">
                   <div class="work">
                     <p class="title">Flat Design Illustration</p>
@@ -112,11 +113,40 @@
 
         </div>
     </div>
+
+
+
+   <!--DEMO01-->
+   <div id="animatedModal">
+       <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+       <div class="modal-content">
+
+       </div>
+
+
+       <div class="container">
+          <div class="close-animatedModal">
+              <div class="container modal-close">
+                 <p>CLOSE</p>
+              </div>
+          </div>
+        </div>
+   </div>
+
+
   <script src="js/wow.js" charset="utf-8"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/animatedModal.min.js" charset="utf-8"></script>
   <script src="js/main.js" charset="utf-8"></script>
   <script>
      new WOW().init();
+     $("#demo01").animatedModal({
+         animatedIn:'slideInRight',
+         animatedOut:'bounceOutDown',
+         color:'#fff',
+         animationDuration:'1.4s'
+     });
    </script>
 </body>
 

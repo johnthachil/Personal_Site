@@ -1,4 +1,15 @@
+var newhtml = 'flat.html';
+var spinner = '<div class="loader">Loading...</div>';
+
+function dynaload() {
+  $.ajaxSetup({ cache:true});
+  $('#demo01').click(function() {
+    $('.modal-content').html(spinner).load(newhtml);
+  });
+}
+
 $(function() {
+  dynaload();
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
