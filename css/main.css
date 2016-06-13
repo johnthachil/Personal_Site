@@ -727,16 +727,70 @@ nav {
     padding-bottom: 10px;
     letter-spacing: 3px; }
 
-.work-details {
-  float: right;
-  border-right: 2px solid #222;
-  padding-right: 15px;
-  text-align: right; }
-  .work-details p {
-    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-weight: 300;
-    margin: 0; }
+/* Work-Flat Design Style
+   ========================================================================== */
+.flat-card {
+  margin-top: 30px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
+.flat-projector {
+  background: #ffaf36;
+  background: -moz-linear-gradient(45deg, #ffaf36 0%, #fbd500 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #ffaf36), color-stop(100%, #fbd500));
+  background: -webkit-linear-gradient(45deg, #ffaf36 0%, #fbd500 100%);
+  background: -o-linear-gradient(45deg, #ffaf36 0%, #fbd500 100%);
+  background: -ms-linear-gradient(45deg, #ffaf36 0%, #fbd500 100%);
+  background: linear-gradient(45deg, #ffaf36 0%, #fbd500 100%); }
+
+.flat-card-content {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px; }
+  .flat-card-content img {
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+.flat-turntable {
+  background: #0342ff;
+  background: -moz-linear-gradient(45deg, #0342ff 0%, #018dff 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #0342ff), color-stop(100%, #018dff));
+  background: -webkit-linear-gradient(45deg, #0342ff 0%, #018dff 100%);
+  background: -o-linear-gradient(45deg, #0342ff 0%, #018dff 100%);
+  background: -ms-linear-gradient(45deg, #0342ff 0%, #018dff 100%);
+  background: linear-gradient(45deg, #0342ff 0%, #018dff 100%);
+  color: white; }
+
+.flat-vodka {
+  background: #d13232;
+  background: -moz-linear-gradient(45deg, #d13232 0%, #e14e2d 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #d13232), color-stop(100%, #e14e2d));
+  background: -webkit-linear-gradient(45deg, #d13232 0%, #e14e2d 100%);
+  background: -o-linear-gradient(45deg, #d13232 0%, #e14e2d 100%);
+  background: -ms-linear-gradient(45deg, #d13232 0%, #e14e2d 100%);
+  background: linear-gradient(45deg, #d13232 0%, #e14e2d 100%);
+  color: white; }
+
+.flat-idea {
+  background: #ffa763;
+  background: -moz-linear-gradient(45deg, #ffa763 0%, #ffc863 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #ffa763), color-stop(100%, #ffc863));
+  background: -webkit-linear-gradient(45deg, #ffa763 0%, #ffc863 100%);
+  background: -o-linear-gradient(45deg, #ffa763 0%, #ffc863 100%);
+  background: -ms-linear-gradient(45deg, #ffa763 0%, #ffc863 100%);
+  background: linear-gradient(45deg, #ffa763 0%, #ffc863 100%);
+  color: black; }
+
+@media (max-width: 480px) {
+  .flat-card-content {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 10px; }
+    .flat-card-content img {
+      max-width: 90%; } }
 /* Footer-Modal Style
    ========================================================================== */
 .footer {
@@ -805,3 +859,37 @@ nav {
   .about-section-education .education .education-details i {
     float: right;
     margin-top: 0.1px; }
+
+/* Product Style
+   ========================================================================== */
+.product {
+  width: 100%;
+  background-color: #d31e29;
+  overflow: hidden; }
+  .product .product-image-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    z-index: 1;
+    margin-bottom: -10px; }
+
+.sperator {
+  z-index: 10;
+  width: 100%;
+  height: 70px; }
+  .sperator .download-container {
+    margin-top: 0px; }
+  .sperator .product-download {
+    float: right;
+    padding-top: 25px; }
+    .sperator .product-download a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #222;
+      border: 2px solid #222;
+      padding: 10px 10px;
+      border-radius: 4px;
+      transition: all 0.2s ease; }
+    .sperator .product-download a:hover {
+      opacity: 0.7;
+      background-color: #222;
+      color: white; }

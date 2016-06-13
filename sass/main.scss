@@ -483,6 +483,7 @@ nav{
 
 /* Work-Modal Style
    ========================================================================== */
+
 .close-animatedModal{
   background: linear-gradient(45deg, #3c54f8, #3e9dff);
   border-radius: 2px;
@@ -506,17 +507,83 @@ nav{
   }
 }
 
-.work-details{
-  float: right;
-  border-right: 2px solid #222;
-  padding-right: 15px;
-  text-align: right;
-  p{
-    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-    // line-height: 25px;
-    font-weight: 300;
-    margin: 0;
+
+/* Work-Flat Design Style
+   ========================================================================== */
+.flat-card{
+  margin-top: 30px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+ -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.flat-projector{
+  background: rgba(255,175,54,1);
+background: -moz-linear-gradient(45deg, rgba(255,175,54,1) 0%, rgba(251,213,0,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(255,175,54,1)), color-stop(100%, rgba(251,213,0,1)));
+background: -webkit-linear-gradient(45deg, rgba(255,175,54,1) 0%, rgba(251,213,0,1) 100%);
+background: -o-linear-gradient(45deg, rgba(255,175,54,1) 0%, rgba(251,213,0,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(255,175,54,1) 0%, rgba(251,213,0,1) 100%);
+background: linear-gradient(45deg, rgba(255,175,54,1) 0%, rgba(251,213,0,1) 100%);
+
+}
+.flat-card-content{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  img{
+    // border: 8px solid white;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+ -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   }
+
+}
+.flat-turntable{
+  background: rgba(3,66,255,1);
+  background: -moz-linear-gradient(45deg, rgba(3,66,255,1) 0%, rgba(1,141,255,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(3,66,255,1)), color-stop(100%, rgba(1,141,255,1)));
+  background: -webkit-linear-gradient(45deg, rgba(3,66,255,1) 0%, rgba(1,141,255,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(3,66,255,1) 0%, rgba(1,141,255,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(3,66,255,1) 0%, rgba(1,141,255,1) 100%);
+  background: linear-gradient(45deg, rgba(3,66,255,1) 0%, rgba(1,141,255,1) 100%);
+  color:white;
+}
+.flat-vodka{
+  background: rgba(209,50,50,1);
+background: -moz-linear-gradient(45deg, rgba(209,50,50,1) 0%, rgba(225,78,45,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(209,50,50,1)), color-stop(100%, rgba(225,78,45,1)));
+background: -webkit-linear-gradient(45deg, rgba(209,50,50,1) 0%, rgba(225,78,45,1) 100%);
+background: -o-linear-gradient(45deg, rgba(209,50,50,1) 0%, rgba(225,78,45,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(209,50,50,1) 0%, rgba(225,78,45,1) 100%);
+background: linear-gradient(45deg, rgba(209,50,50,1) 0%, rgba(225,78,45,1) 100%);
+
+  color:white;
+}
+.flat-idea{
+  background: rgba(255,167,99,1);
+background: -moz-linear-gradient(45deg, rgba(255,167,99,1) 0%, rgba(255,200,99,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(255,167,99,1)), color-stop(100%, rgba(255,200,99,1)));
+background: -webkit-linear-gradient(45deg, rgba(255,167,99,1) 0%, rgba(255,200,99,1) 100%);
+background: -o-linear-gradient(45deg, rgba(255,167,99,1) 0%, rgba(255,200,99,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(255,167,99,1) 0%, rgba(255,200,99,1) 100%);
+background: linear-gradient(45deg, rgba(255,167,99,1) 0%, rgba(255,200,99,1) 100%);
+  color:black;
+}
+
+
+@media (max-width: $toast-breakpoint-small){
+  .flat-card-content{
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    img{
+      max-width: 90%;
+    }
+
+  }
+
+
 }
 /* Footer-Modal Style
    ========================================================================== */
@@ -620,6 +687,48 @@ box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.75);
         float: right;
         margin-top: 0.1px;
       }
+    }
+  }
+}
+
+/* Product Style
+   ========================================================================== */
+.product{
+
+  width: 100%;
+  background-color:#d31e29;
+  overflow: hidden;
+  .product-image-wrapper{
+    width: 50%;
+    margin: 0 auto;
+    z-index: 1;
+    margin-bottom: -10px;
+  }
+}
+.sperator{
+  z-index: 10;
+  width: 100%;
+  height: 70px;
+  .download-container{
+    margin-top: 0px;
+  }
+  .product-download{
+    float: right;
+    padding-top: 25px;
+    a{
+      margin-right: 10px;
+      text-decoration: none;
+      color: #222;
+      border: 2px solid #222;
+      padding: 10px 10px;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+
+    }
+    a:hover{
+      opacity: 0.7;
+      background-color: #222;
+      color:white;
     }
   }
 }

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>Tablet 7″ Landscape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet-7″-Landscape">
+            <rect id="Rectangle-1" fill="#E23737" x="-20" y="0" width="520" height="500"></rect>
+            <g id="Group" filter="url(#filter-1)" transform="translate(38.763996, 103.064303)">
+                <rect id="Rectangle-2" fill="#E1E2E2" x="0" y="-1.42108547e-13" width="444.472008" height="396.935697"></rect>
+                <rect id="Rectangle-3" fill="#2561EF" x="0" y="26.4623798" width="444.472008" height="370.473317"></rect>
+                <ellipse id="Oval-1" fill="#FE6159" cx="17.0950772" cy="13.721234" rx="4.74863257" ry="4.9004407"></ellipse>
+                <ellipse id="Oval-1-Copy" fill="#FFC02F" cx="33.240428" cy="13.721234" rx="4.74863257" ry="4.9004407"></ellipse>
+                <ellipse id="Oval-1-Copy-2" fill="#27CD40" cx="49.3857787" cy="13.721234" rx="4.74863257" ry="4.9004407"></ellipse>
+            </g>
+            <rect id="Rectangle-4" fill="#1B4CC1" x="103.345399" y="290.298678" width="321.007561" height="20.1637019" rx="10.0818509"></rect>
+            <rect id="Rectangle-4-Copy-4" fill="#1B4CC1" x="268.597812" y="138.590826" width="207.990106" height="20.1637019" rx="10.0818509"></rect>
+            <rect id="Rectangle-4-Copy-6" fill="#1B4CC1" x="132.786921" y="138.590826" width="129.162806" height="20.1637019" rx="10.0818509"></rect>
+            <rect id="Rectangle-4-Copy-5" fill="#1B4CC1" x="53.0098936" y="138.590826" width="18.9945303" height="20.1637019" rx="9.49726513"></rect>
+            <rect id="Rectangle-4-Copy" fill="#1B4CC1" x="104.295125" y="319.103966" width="123.464447" height="16.8030849" rx="8.40154245"></rect>
+            <rect id="Rectangle-4-Copy-2" fill="#1B4CC1" x="234.407658" y="319.103966" width="129.162806" height="16.8030849" rx="8.40154245"></rect>
+            <rect id="Rectangle-4-Copy-3" fill="#1B4CC1" x="370.218549" y="319.103966" width="54.1344113" height="16.8030849" rx="8.40154245"></rect>
+            <g id="Group" filter="url(#filter-2)" transform="translate(20.000000, 195.000000)" fill="#2561EF">
+                <rect id="Rectangle-3" x="0" y="0.462379788" width="207.743326" height="370.473317"></rect>
+            </g>
+            <rect id="Rectangle-4-Copy-9" fill="#1B4CC1" x="34" y="208" width="18.9945303" height="20.1637019" rx="9.49726513"></rect>
+            <rect id="Rectangle-4-Copy-8" fill="#1B4CC1" x="72" y="208" width="129.162806" height="20.1637019" rx="10.0818509"></rect>
+            <rect id="Rectangle-4-Copy-10" fill="#1B4CC1" x="32" y="291.298678" width="183" height="11.2656253" rx="5.63281265"></rect>
+            <rect id="Rectangle-4-Copy-10" fill="#1B4CC1" x="32" y="482.689306" width="183" height="11.2656253" rx="5.63281265"></rect>
+            <rect id="Rectangle-4-Copy-10" fill="#1B4CC1" x="32" y="461.42368" width="183" height="11.2656253" rx="5.63281265"></rect>
+            <rect id="Rectangle-4-Copy-10" fill="#1B4CC1" x="32" y="440.158055" width="183" height="11.2656253" rx="5.63281265"></rect>
+            <rect id="Rectangle-4-Copy-10" fill="#1B4CC1" x="32" y="418.89243" width="183" height="11.2656253" rx="5.63281265"></rect>
+            <rect id="Rectangle-4-Copy-10" fill="#1B4CC1" x="32" y="397.626804" width="183" height="11.2656253" rx="5.63281265"></rect>
+            <rect id="Rectangle-4-Copy-10" fill="#1B4CC1" x="32" y="376.361179" width="183" height="11.2656253" rx="5.63281265"></rect>
+            <rect id="Rectangle-4-Copy-10" fill="#1B4CC1" x="32" y="355.095554" width="183" height="11.2656253" rx="5.63281265"></rect>
+            <rect id="Rectangle-4-Copy-10" fill="#1B4CC1" x="32" y="333.829928" width="183" height="11.2656253" rx="5.63281265"></rect>
+            <rect id="Rectangle-4-Copy-10" fill="#1B4CC1" x="32" y="312.564303" width="183" height="11.2656253" rx="5.63281265"></rect>
+        </g>
+    </g>
+</svg>
