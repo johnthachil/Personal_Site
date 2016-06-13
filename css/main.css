@@ -40,7 +40,7 @@
   That's it. Have fun.
 
 \*-----------------------------------*/
-@import url(https://fonts.googleapis.com/css?family=Merriweather:100,400,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:100,400,700,400italic);
 .row {
   list-style: none;
   margin-left: -10px; }
@@ -686,15 +686,17 @@ nav {
   text-decoration: none;
   color: #222; }
 .works li {
-  opacity: 0.6;
+  opacity: 0.65;
   transition: all 0.5s ease; }
 .works li:hover {
   opacity: 1; }
 
 .work .title {
-  float: left; }
+  float: left;
+  font-weight: 400; }
 .work .position {
   float: right;
+  font-weight: 100;
   margin-right: 10px; }
 
 @media (max-width: 480px) {
@@ -734,3 +736,72 @@ nav {
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-weight: 300;
     margin: 0; }
+
+/* Footer-Modal Style
+   ========================================================================== */
+.footer {
+  background-color: #222;
+  height: 100px;
+  -webkit-box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.container-footer {
+  margin-bottom: 0px; }
+
+.footer-content {
+  color: white;
+  padding-top: 30px;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
+  .footer-content a {
+    float: right;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: inherit; }
+  .footer-content a:hover {
+    text-decoration: overline;
+    text-decoration-style: wavy; }
+
+@media (max-width: 480px) {
+  .footer {
+    height: 120px; }
+
+  .footer-content .footer-nav {
+    clear: both; }
+  .footer-content a {
+    float: right;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: inherit; } }
+/* About Style
+   ========================================================================== */
+.quotesec h1 {
+  text-align: right; }
+.quotesec p {
+  text-align: right; }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.2em;
+    margin-top: 0px; } }
+.about-section-bio h3 {
+  margin-top: 18px; }
+
+.about-section-education {
+  margin-top: 20px; }
+  .about-section-education h3 {
+    margin-top: 0px; }
+  .about-section-education .education p {
+    margin-top: 0px;
+    color: #8E9393; }
+  .about-section-education .education .education-details h5 {
+    float: left;
+    margin-bottom: 0px;
+    margin-top: 0px; }
+  .about-section-education .education .education-details i {
+    float: right;
+    margin-top: 0.1px; }

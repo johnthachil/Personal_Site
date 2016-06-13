@@ -9,11 +9,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/animate.css" media="screen" title="no title" charset="utf-8">
-    <script src="js/wow.js" charset="utf-8"></script>
-    <script type="text/javascript">
-      new WOW().init();
-    </script>
-
 </head>
 
 <body>
@@ -23,7 +18,7 @@
           <h3 class="logo">JOHN <b> THACHIL</b></h3>
           <nav>
             <a href="index.html">WORK</a>
-            <a href="about.html">ABOUT</a>
+            <a href="#">ABOUT</a>
           </nav>
         </div>
       </div>
@@ -32,92 +27,67 @@
     <!-- Landing Section   -->
     <div class="container">
         <div class="clearfix">
-          <div class="landing">
-            <h1 class="line-one wow  fadeIn"  data-wow-duration="2s">UX <span class="amper">&amp</span> UI</h1>
-            <h1 class="line-two wow  fadeIn"  data-wow-duration="3s" data-wow-delay="1s"> <span class="strike-one">Designer </span><span class="slash">/</span><span class="strike-two"> Developer</span></h1>
-        </div>
+          <div class="quotesec">
+            <h1 class="wow  fadeIn"  data-wow-duration="2s"> &#8220 <span style="color:#fb405f"> Simplicity </span> is Ultimate Form of Sophistication &#8221</h1>
+            <p class="wow  fadeIn"  data-wow-duration="4s">- Leonardo da Vinci</p>
+          </div>
       </div>
     </div>
     <!-- divider -->
     <div class="container">
       <div class="icon-landing">
-        <a href="#work-section"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+        <a href="#aboutme"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
       </div>
     </div>
 
 
     <!-- works -->
     <div class="container">
-      <div id="work-section" class="works">
+      <div id="aboutme">
 
-          <h2>Hand Picked</h2>
+          <h2>A Version Of Me</h2>
+          <hr>
+          <div class="aboutme-wrapper">
+            <div class="row about-section-bio">
+                <div class="col col--2-of-12 col--s-2-of-2 col--am">
+                    <h3>Bio</h3>
+                </div>
+                <div class="col col--10-of-12 col--s-2-of-2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                </div>
 
-            <li class="wow fadeIn">
-              <a href="#">
-                <div class="clearfix">
-                  <div class="work">
-                    <p class="title">Nautilus</p>
-                    <p class="position">UI Designer &amp Developer </p>
+
+            </div>
+            <div class="row about-section-education">
+                <div class="col col--2-of-12 col--s-2-of-2 col--am">
+                    <h3>Education</h3>
+                </div>
+                <div class="col col--10-of-12 col--s-2-of-2">
+                  <div class="education">
+                    <div class="clearfix education-details">
+                      <h5>B.Tech in Computer Science &amp Engineering</h5>
+                      <i>2012-2016</i>
+                    </div>
+                    <p>Federal Institute of Science and Technology, Angamaly M.G University</p>
+                  </div>
+                  <hr>
+                  <div class="education">
+                    <div class="clearfix education-details">
+                      <h5>AISSCE</h5>
+                      <i>2010-2012</i>
+                    </div>
+                    <p>CKM NSS Senior Secondary School India</p>
                   </div>
                 </div>
-              </a>
-            </li>
-            <hr>
-
-            <li class="wow fadeIn">
-              <a id="demo01" href="#animatedModal">
-                <div class="clearfix">
-                  <div class="work">
-                    <p class="title">Flat Design Illustration</p>
-                    <p class="position">Designer</p>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <hr>
 
 
-            <li class="wow fadeIn">
-              <a href="#">
-                <div class="clearfix">
-                  <div class="work">
-                    <p class="title">Answer Engine</p>
-                    <p class="position">Python Developer </p>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <hr>
-
-            <li class="wow fadeIn">
-              <a href="#">
-                <div class="clearfix">
-                  <div class="work">
-                    <p class="title">Login Modal</p>
-                    <p class="position">UI Designer &amp Developer </p>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <hr>
-
-
-
-            <li class="wow fadeIn">
-              <a href="#">
-                <div class="clearfix">
-                  <div class="work">
-                    <p class="title">NoteNote</p>
-                    <p class="position">Python (Flask) </p>
-                  </div>
-                </div>
-              </a>
-            </li>
-
+            </div>
 
 
         </div>
     </div>
+  </div>
+
 
 
 
@@ -161,8 +131,9 @@
   <script src="js/animatedModal.min.js" charset="utf-8"></script>
   <script src="js/main.js" charset="utf-8"></script>
   <script>
+     new WOW().init();
      $("#demo01").animatedModal({
-         animatedIn:'fadeIn',
+         animatedIn:'bounceInUp',
          animatedOut:'bounceOutDown',
          color:'#fff',
          animationDuration:'1.8s'
