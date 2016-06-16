@@ -53,7 +53,7 @@
           <h2>Hand Picked</h2>
 
             <li class="wow fadeIn">
-              <a href="#">
+              <a class="demo01" href="#animatedModal" data-target="nautilus">
                 <div class="clearfix">
                   <div class="work">
                     <p class="title">Nautilus</p>
@@ -65,7 +65,7 @@
             <hr>
 
             <li class="wow fadeIn">
-              <a id="demo01" href="#animatedModal">
+              <a class="demo01" href="#animatedModal" data-target="flat">
                 <div class="clearfix">
                   <div class="work">
                     <p class="title">Flat Design Illustration</p>
@@ -78,7 +78,7 @@
 
 
             <li class="wow fadeIn">
-              <a href="#">
+              <a class="demo01" href="#animatedModal" data-target="engine">
                 <div class="clearfix">
                   <div class="work">
                     <p class="title">Answer Engine</p>
@@ -90,10 +90,10 @@
             <hr>
 
             <li class="wow fadeIn">
-              <a href="#">
+              <a class="demo01" href="#animatedModal" data-target="design">
                 <div class="clearfix">
                   <div class="work">
-                    <p class="title">Login Modal</p>
+                    <p class="title">Design Challenges</p>
                     <p class="position">UI Designer &amp Developer </p>
                   </div>
                 </div>
@@ -161,11 +161,11 @@
   <script src="js/animatedModal.min.js" charset="utf-8"></script>
   <script src="js/main.js" charset="utf-8"></script>
   <script>
-     $("#demo01").animatedModal({
-         animatedIn:'fadeIn',
-         animatedOut:'bounceOutDown',
+     $(".demo01").animatedModal({
+         animatedIn:'fadeInUpBig',
+         animatedOut:'fadeOutDownBig',
          color:'#fff',
-         animationDuration:'0.8s'
+         animationDuration:'0.7s'
      });
    </script>
 </body>

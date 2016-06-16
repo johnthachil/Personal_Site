@@ -436,8 +436,8 @@ h5 {
   font-size: 1rem;
   line-height: 31px;
   line-height: 1.722222222222222rem;
-  margin-top: 77.5px;
-  margin-top: 4.305555555555556rem;
+  margin-top: 0.5px;
+  margin-top: 1.305555555555556rem;
   margin-bottom: 15.5px;
   margin-bottom: 0.861111111111111rem; }
 
@@ -543,6 +543,20 @@ h5 + h6 {
   h6 {
     font-style: italic;
     font-weight: normal; } }
+code {
+  font-family: courier, monospace; }
+
+p > code {
+  padding: 0.10em;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  background: #eee; }
+
+pre {
+  text-align: left;
+  font-size: 100%; }
+
 /* Container
    ========================================================================== */
 .container {
@@ -864,7 +878,6 @@ nav {
    ========================================================================== */
 .product {
   width: 100%;
-  background-color: #d31e29;
   overflow: hidden; }
   .product .product-image-wrapper {
     width: 50%;
@@ -880,7 +893,7 @@ nav {
     margin-top: 0px; }
   .sperator .product-download {
     float: right;
-    padding-top: 25px; }
+    padding-top: 30px; }
     .sperator .product-download a {
       margin-right: 10px;
       text-decoration: none;
@@ -893,3 +906,8 @@ nav {
       opacity: 0.7;
       background-color: #222;
       color: white; }
+
+.product-content li {
+  list-style: disc; }
+.product-content img {
+  border-radius: 3px; }

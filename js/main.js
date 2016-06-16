@@ -1,10 +1,12 @@
-var newhtml = 'flat.html';
+var targetUrl;
 var spinner = '<div class="loader">Loading...</div>';
 
 function dynaload() {
   $.ajaxSetup({ cache:true});
-  $('#demo01').click(function() {
-    $('.modal-content').html(spinner).load(newhtml);
+  $('.demo01').click(function() {
+    targetUrl = $(this).attr("data-target") +'.html'
+    console.log(targetUrl);
+    $('.modal-content').html(spinner).load(targetUrl);
   });
 }
 

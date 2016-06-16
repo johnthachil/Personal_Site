@@ -99,8 +99,8 @@ img{
      font-size: 1rem;
      line-height: 31px;
      line-height: 1.722222222222222rem;
-     margin-top: 77.5px;
-     margin-top: 4.305555555555556rem;
+     margin-top: 0.5px;
+     margin-top: 1.305555555555556rem;
      margin-bottom: 15.5px;
      margin-bottom: 0.861111111111111rem;
    }
@@ -235,6 +235,10 @@ h5 + h6 {
   }
 }
 
+
+code {font-family:courier, monospace;}
+p > code {padding:0.10em; padding-left: 10px; padding-right: 10px; border-radius: 3px;background:#eee;}
+pre {text-align:left; font-size:100%;}
 
 
 
@@ -696,7 +700,7 @@ box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.75);
 .product{
 
   width: 100%;
-  background-color:#d31e29;
+  // background-color:#d31e29;
   overflow: hidden;
   .product-image-wrapper{
     width: 50%;
@@ -714,7 +718,7 @@ box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.75);
   }
   .product-download{
     float: right;
-    padding-top: 25px;
+    padding-top: 30px;
     a{
       margin-right: 10px;
       text-decoration: none;
@@ -730,5 +734,13 @@ box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.75);
       background-color: #222;
       color:white;
     }
+  }
+}
+.product-content{
+  li{
+    list-style: disc;
+  }
+  img{
+    border-radius: 3px;
   }
 }
